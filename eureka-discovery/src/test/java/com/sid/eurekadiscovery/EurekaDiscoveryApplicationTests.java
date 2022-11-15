@@ -1,10 +1,10 @@
-package org.sid.gatewayservice;
+package com.sid.eurekadiscovery;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GatewayApplicationTests {
+class EurekaDiscoveryApplicationTests {
 
     @Test
     void contextLoads() {

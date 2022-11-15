@@ -13,13 +13,14 @@ public class CustomerServiceApplication {
     public static void main(String[] args) {
         SpringApplication.run(CustomerServiceApplication.class, args);
     }
+
     @Bean
-    CommandLineRunner start(CustomerRepository customerRepository){
-        return  args -> {
+    CommandLineRunner start(CustomerRepository customerRepository) {
+        return args -> {
             customerRepository.save(new Customer(null, "salah", "salah@gmail.com"));
             customerRepository.save(new Customer(null, "Youssef", "Youssef@gmail.com"));
             customerRepository.save(new Customer(null, "Mouad", "Mouad@gmail.com"));
-            customerRepository.findAll().forEach(c->{
+            customerRepository.findAll().forEach(c -> {
                 System.out.println(c.toString());
             });
         };
