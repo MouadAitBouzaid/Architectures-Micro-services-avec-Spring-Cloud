@@ -12,8 +12,11 @@ Travail à faire :
 4. Créer l'annuaire Eureka Discrovery Service
 
 5. Faire une configuration dynamique des routes de la gateway
+
 6. Créer le service de facturation Billing-Service en utilisant Open Feign
+
 7. Créer un client Web Angular (Clients, Produits, Factures)
+
 8. Déployer le serveur keycloak :
      - Créer un Realm
      - Créer un client à sécuriser
@@ -21,4 +24,5 @@ Travail à faire :
      - Créer des rôles
      - Affecter les rôles aux utilisateurs
      - Tester les différents modes d'authentification avec Postman en montrant les contenus de Access-Token, Refresh Token 
+     
 9. Sécuriser les micro-services et le frontend angular en déployant les adaptateurs Keycloak
