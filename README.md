@@ -10,20 +10,21 @@ Travail à faire :
 <img width="712" alt="Capture d’écran 2022-12-07 à 20 32 39" src="https://user-images.githubusercontent.com/77202158/206278183-be96df83-8b75-4b40-ab39-9765c4586493.png">
 
 3. Créer la Gateway Spring cloud Gateway avec une Configuration statique du système de routage
-
 4. Créer l'annuaire Eureka Discrovery Service
 ![Capture d’écran 2022-12-07 à 21 19 07](https://user-images.githubusercontent.com/77202158/206287032-dec0b2b4-cb5b-4f83-88f1-bba29d29cced.png)
 
 5. Faire une configuration dynamique des routes de la gateway
+<img width="875" alt="Capture d’écran 2022-12-07 à 22 42 14" src="https://user-images.githubusercontent.com/77202158/206302883-cee36b4d-6b99-4191-9a56-e94680c47194.png">
 
 6. Créer le service de facturation Billing-Service en utilisant Open Feign
 ![Capture d’écran 2022-12-07 à 21 55 20](https://user-images.githubusercontent.com/77202158/206293805-61d8209d-2bf4-4279-b1af-2a4ecfc7bcd4.png)
 
 
 7. Créer un client Web Angular (Clients, Produits, Factures)
-#Produits : 
+
+Produits : 
 ![206163976-a1e54bb6-bc3c-4285-ba2c-ea25df3a55fa](https://user-images.githubusercontent.com/77202158/206294363-f87fc7f4-907f-40c2-bbad-2f1e3cd0fca4.png)
-#Clients : 
+Clients : 
 ![206164177-5545d2be-f01e-48a7-95b4-3c32fc9800e1](https://user-images.githubusercontent.com/77202158/206294672-295db585-9fac-4b1a-9b85-c5c872ac643d.png)
 
 
@@ -40,6 +41,7 @@ Travail à faire :
 ![Capture d’écran 2022-12-07 à 22 14 39](https://user-images.githubusercontent.com/77202158/206298023-fe9e78b5-3fea-4b30-a6f4-eb6c8d91e167.png)
      - Tester les différents modes d'authentification avec Postman en montrant les contenus de Access-Token, Refresh Token 
 ![206165416-4566a031-3a20-4085-b29a-2b3af76b558c](https://user-images.githubusercontent.com/77202158/206298466-7d1d1e7c-9551-4c79-9bb2-93ee6ebb18cc.png)
+
 9. Sécuriser les micro-services et le frontend angular en déployant les adaptateurs Keycloak
 ![Capture d’écran 2022-12-07 à 22 19 13](https://user-images.githubusercontent.com/77202158/206302305-85ca3284-30d7-400c-9861-d5f4d042e1db.png)
 
