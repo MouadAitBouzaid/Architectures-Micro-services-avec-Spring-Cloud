@@ -41,6 +41,7 @@ public class BillingServiceApplication {
                 productItem.setPrice(p.getPrice());
                 productItem.setQuantity(new Random().nextInt(100));
                 productItem.setBill(bill1);
+                productItem.setProductID(p.getId());
                 productItemRepository.save(productItem);
             });
         };
