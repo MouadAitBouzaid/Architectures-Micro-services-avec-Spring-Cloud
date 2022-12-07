@@ -4,6 +4,8 @@ Créer une application basée sur une architecture micro-service qui permet de g
 Travail à faire :
 
 1.Créer le micro-service customer-service qui permet de gérer les client
+<img width="746" alt="Capture d’écran 2022-12-07 à 20 30 37" src="https://user-images.githubusercontent.com/77202158/206277731-85b1f23c-f5ac-4dc9-a5c0-feeb95575109.png">
+
 
 2.Créer le micro-service inventory-service qui permet de gérer les produits
 
