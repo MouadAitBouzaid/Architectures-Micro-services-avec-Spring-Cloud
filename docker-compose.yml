@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+
+  eureka:
+    container_name: eureka
+    image: eureka
+    ports:
+      - "8761:8761"
+    networks:
+      - my-network
+
+  inventory:
+    image: invetory
+    ports:
+      - "8800:8800"
+    environment:
+      - JAVA_OPTS=
+        -DEUREKA_SERVER=http://eureka:8761/
+    depends_on:
+      - eureka
+    networks:
+      - my-network
+
+networks:
+  my-network:

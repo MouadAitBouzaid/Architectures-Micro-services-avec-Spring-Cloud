@@ -1,7 +1,7 @@
 package org.sid.inventoryservice;
 
 import org.sid.inventoryservice.entities.Product;
-import org.sid.inventoryservice.repository.productRepository;
+import org.sid.inventoryservice.repository.ProductRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,7 +15,7 @@ public class InventoryServiceApplication {
         SpringApplication.run(InventoryServiceApplication.class, args);
     }
     @Bean
-    CommandLineRunner start(productRepository productRepository, RepositoryRestConfiguration restConfiguration){
+    CommandLineRunner start(ProductRepository productRepository, RepositoryRestConfiguration restConfiguration){
         restConfiguration.exposeIdsFor(Product.class);
         return args -> {
 
@@ -27,8 +27,6 @@ public class InventoryServiceApplication {
             });
         };
     }
-
-    ;
 }
 
 
