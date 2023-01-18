@@ -27,6 +27,7 @@ La création une application basée sur une architecture micro-service qui perme
 7. Créer un client Web Angular (Clients, Produits, Factures)
 
 Produits : 
+<img width="1791" alt="Capture d’écran 2023-01-18 à 10 55 18" src="https://user-images.githubusercontent.com/77202158/213140919-9acc8cbd-62ce-4855-9d7c-40fa33721e26.png">
 ![206163976-a1e54bb6-bc3c-4285-ba2c-ea25df3a55fa](https://user-images.githubusercontent.com/77202158/206294363-f87fc7f4-907f-40c2-bbad-2f1e3cd0fca4.png)
 Clients : 
 ![206164177-5545d2be-f01e-48a7-95b4-3c32fc9800e1](https://user-images.githubusercontent.com/77202158/206294672-295db585-9fac-4b1a-9b85-c5c872ac643d.png)
