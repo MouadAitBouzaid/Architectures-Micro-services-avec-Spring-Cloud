@@ -31,6 +31,10 @@ Produits :
 ![206163976-a1e54bb6-bc3c-4285-ba2c-ea25df3a55fa](https://user-images.githubusercontent.com/77202158/206294363-f87fc7f4-907f-40c2-bbad-2f1e3cd0fca4.png)
 Clients : 
 ![206164177-5545d2be-f01e-48a7-95b4-3c32fc9800e1](https://user-images.githubusercontent.com/77202158/206294672-295db585-9fac-4b1a-9b85-c5c872ac643d.png)
+Factures :
+![206293390-a94164ac-ce0c-467a-8ba8-3c13820596a3](https://user-images.githubusercontent.com/77202158/213145371-8d681f56-7135-4080-8480-d562c1397049.png)
+![206293390-a94164ac-ce0c-467a-8ba8-3c13820596a3](https://user-images.githubusercontent.com/77202158/213145401-323ab7d8-c775-45ee-bdb9-34a8beb2cac0.png)
+![206293541-b8a55c05-f32e-4171-b88e-ce61d6a064d8](https://user-images.githubusercontent.com/77202158/213145434-e31fd34d-583b-406c-be10-f543c1bbb5c5.png)
 
 
 8. Déployer le serveur keycloak :
